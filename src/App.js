@@ -6,6 +6,7 @@ import Signup from './components/Signup';
 import Login from "./components/Login";
 import Verify from "./components/Verify";
 import Generate from "./components/Generate";
+import View from './components/View'
 //import AppRouter from "./components/AppRouter";
 import { createBrowserRouter, createRoutesFromElements,Route, Link, Outlet, RouterProvider } from "react-router-dom";
 
@@ -23,6 +24,7 @@ export default function App() {
             <Route path='/Footer' element ={<Footer />} />
             <Route path='/Verify' element ={<Verify />} />
             <Route path='/Generate' element ={<Generate />} />
+            <Route path='/View' element ={<View />} />
 
 
           </Route>
